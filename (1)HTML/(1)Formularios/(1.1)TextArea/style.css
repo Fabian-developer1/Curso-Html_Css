@@ -1,0 +1,18 @@
+textarea{
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 200px; }
+
+    /*
+    Para quee el textarea se comporte bien hay modificar a gusto los valores de (min-height,max-height) y la anchura (min-whidth,max-whidth)
+    
+    Para que el movimiento de la caja no sobrepase se usa resize:
+    (both)      = Permite que se mueve en el eje X y ele eje Y 
+    (vertical)  = Solo se podra mover en el eje Y
+    (horizontal)= Solo se podra mover en el eje X
+    (none)      = No se desplaza
+    
+    form-sizing:content (la ventana se adapta)
+    
+    Hay que personalizar la fuente en textarea para que funcione  */ 

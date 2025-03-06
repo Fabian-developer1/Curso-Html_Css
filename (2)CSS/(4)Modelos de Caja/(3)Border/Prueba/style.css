@@ -1,0 +1,39 @@
+div{border-width: 10px;} 
+/* Establece el tamaño del borde*/
+
+div{border-color: black;}
+/* Establece color*/
+/*Transparent hace que el borde sea transparente pero sigue afectando aunque no se vea*/
+
+div{border-style:solid;}
+/*Establece el estilo del borde*/
+/*solid y hidden son los que mas se usan*/
+
+div{border-radius: 10px;}
+/*Establece el redondeo de los bordes se obtienen resultados distintos al trbajar co % o px*/
+
+div{border: 10px solid black;}
+/* Se puede utilizar la propiedad border para abreviar las 3 obligatorias
+    En el orden:    Width-Style-Color  */
+
+div{border-top:    10px solid black;
+    border-bottom: 10px solid black;
+    border-right:  10px solid black;
+    border-left:   10px solid black; }
+/*Se puede poner bordes en direcciones individuales
+  Es un shorhand para usar 3 propiedades  */
+
+div{border-top-left-radius: 10px;}
+/*Se puede modificar el redondeo de cada esquina individual Ej:
+  Arriba Izq - Abajo Derecha ETC... */
+
+div{border-radius:10px 10px}
+/*Esto es un shorthad el primer valor afecta a la esquina Superior Izquierda y a su Diagonal
+  El Segundo afecta a la esquina superior derecha y a su diagonak*/
+
+div{border-radius: 10px 50px 0 30px;}
+/*Esto funciona en el sentido del reloj a partir de la esquina Superior Izquierda*/
+
+div{border-spacing:16px}
+/*Espacio que se establecera entre los bordes*?
+

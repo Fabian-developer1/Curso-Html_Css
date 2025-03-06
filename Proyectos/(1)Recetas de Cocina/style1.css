@@ -1,0 +1,51 @@
+h1{
+   color:rgb(198, 71, 52);
+   font-family:cursive;
+   font-size: 45px;
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+   text-decoration: underline;
+   line-height: 2;
+  } /* Encabezado*/
+
+h2{
+   color:rgb(67, 179, 74);
+   font-family:'Lucida Sans';
+   font-size: 40px;
+   font-style: italic;
+   line-height:0;
+  } /*2do encabezado Recetas */
+
+h3{
+   color:rgb(150, 29, 92);
+   font-family:Arial;
+   font-size: 27px;   
+   text-decoration: underline;
+   line-height: 1;
+  }/*Platos*/
+
+h4{
+    color:black;
+    font-family:Verdana;
+    font-size: 23px;
+    line-height:0;
+  }/* Ingred y Instrucciones*/
+
+.Recetas{ 
+  color: black;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  line-height: 1.1;
+ 
+  } /*Platos en Recetas */
+
+.Ingredientes{
+    color:black;
+    font-size: 20px;
+}
+
+

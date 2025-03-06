@@ -1,0 +1,42 @@
+body{
+    margin: 0; padding: 0;
+    background-color: #fc9f53;}
+
+h1{
+    padding: 10px 0;
+    color:#ceb89d;
+    text-align: center;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;}
+
+label{
+    padding: 15px;
+    color: #ceb89d;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.formulario{
+    width: 60vw; height: 90vh;
+    margin: auto; margin-top: 5vh;
+    background-color: #2f2c2b;
+    box-sizing: border-box;
+    border: 1px solid transparent; border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);}
+
+.divisora{margin-bottom:15px;}
+
+input,textarea,datalist,option,select{
+    width: 95%;
+    padding: 10px;  margin: 10px;
+    background-color:#2f2c2b ;
+    color: #ceb89d;
+    border-bottom: 3px solid #fc9f536b; border-radius: 10px;
+    box-sizing: border-box; }
+
+legend{
+    color: #ceb89d;
+    font-size: 30px;}
+
+fieldset{
+    margin: 10px 10px;
+    border: 1px solid #ceb89d; border-radius: 10px;}

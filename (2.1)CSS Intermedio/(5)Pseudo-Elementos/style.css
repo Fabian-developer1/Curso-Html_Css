@@ -1,0 +1,27 @@
+/*Para acceder a los pseudo-elementos se usa( h1:: ) dos puntos dos veces*/
+
+
+/*Pseudo-elementos*/
+
+h1::first-lette{color: aliceblue;}
+/*Primera Letra*/
+
+p::first-line{color: aliceblue;}
+/*Primera Linea*/
+
+p::selection{color: aliceblue;}
+/*Modifica la Selccion(Pordefecto es fondo azul y letras blancas)*/
+
+input::placeholder{color: aliceblue;}
+/*Modifica el Placeholder*/
+
+div::before{
+    content: ir antes;}
+/*Crea un contenido inmodificable delante del elemento*/
+
+div::after{
+    content: ir despues;}
+/*Crea un contenido inmodificable al final del elemento*/
+
+dialog::backdrop{color: aliceblue;}
+/*Investigar pero creo que modifica el fondo de la ventana modal */

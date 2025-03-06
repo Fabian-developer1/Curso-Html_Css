@@ -1,0 +1,34 @@
+body{
+    background-image: url(../../Imagenes/Giorno.png);
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;}
+
+form{
+    margin:20% 40%;}
+
+.mail{
+    text-align: left;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 300px;
+   }
+
+.passw{  
+    text-align: left;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 300px;
+}
+
+.submit{
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 50%;
+    margin-left: 35%;
+
+
+}

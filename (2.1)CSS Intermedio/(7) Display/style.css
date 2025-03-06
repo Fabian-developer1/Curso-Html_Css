@@ -1,0 +1,9 @@
+
+/*Inline:
+
+-No Aceptan ni margin bottom ni top ni las propiedades height y whidth */
+
+h1{display: inline;}       /*Elementos en LINEA*/
+h1{display: block;}        /*Elementos en Bloque*/
+h1{display: inline-block;} /*Elementos que funcionan como bloques pero se pueden poner al lado*/
+h1{display:none;}          /*El Elemento desaparece*/

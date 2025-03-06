@@ -1,0 +1,13 @@
+/*Para cajas*/
+box-shadow:20px 20px 20px 20px 
+
+/*1er valor sombras en el eje x 
+2do valor sombras eje y 
+3er valor difuminado 
+4to valor expansion del difuminado */
+
+/*Para letras*/
+text-shadow:20px 20px 20px black
+
+/*Para imagenes*/
+fliter:drop-shadow:20px 20px 20px black

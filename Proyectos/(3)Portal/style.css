@@ -1,0 +1,18 @@
+ body{
+    background-image: url(../../Imagenes/jojos\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+.h1{margin-left: 450px;margin-right: 150px;
+    width: 260px;  height: 75px;
+
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-radius: 10px;
+
+    background-color: #a361adb2;}
+    
+h1{ margin-left: 50px;
+
+    font-size: 60px;
+    color: #000000;}

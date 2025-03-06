@@ -1,0 +1,22 @@
+div{position: static;}   /*Valor por defecto*/
+
+
+/*---Relative---*/
+div{position: relative;} /*Reserva la posicion inical de la caja pero se puede mover usando:*/
+
+/*---Absolute---*/
+div{position: absolute;}
+/*
+-La caja ya no ocupa el lugar que solia ocupar (se sale del flujo del codigo)
+-Si su padre tiene position por defecto(static) su valor relativo sera la caja HTML
+-Es muy bueno hacer a la caja que la contiene sea (relativa) para poder moverla en esa caja ya que la empezara a tomar como punto relativo
+-Si su padre tiene poscion:relativa se ponen todos los valores (top,bottom,right,left) con valor 0 y el margin:auto y la caja quedara centrada  */
+
+/*Formas de Mover*/
+/*Al mover con (position:relative) se mueve a partir de su posicion inicial*/
+
+div{
+    position: relative;
+    top:  50px; /*Esta propiedad la moveras de (arriba) hacia (abajo) si usamos valores positivos*/
+    left: 50px; /*Esta propiedad la moveras de derecha (izquierda) hacia (derecha) si usamos valores positivos*/
+    z-index: 10;/*Esta propiedad le da un valor al eje z a mayor valor mayor la prioridad para ver quien se muestra por delante*/}

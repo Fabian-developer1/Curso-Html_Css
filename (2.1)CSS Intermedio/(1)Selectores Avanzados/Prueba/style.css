@@ -1,0 +1,25 @@
+
+/*Ruta Exacta*/
+img[src="../Img/Jojo.png"]{
+    width: 20vw;  height: 20vh;}
+
+/*Ruta Prefijo */
+img[src^="../Img/Ki"]{
+    width: 30vw; height: 30vh;}
+
+/*Ruta Subfijo*/
+img[src$="rno.png"]{
+    width: 40vw; height: 40vh; }
+
+/*Hermano Adyacente(Solo el Primero)*/
+h1 + p {color: thistle;}
+
+/*Hermanos Generales*/
+h2 ~ p {color: tomato;}
+
+
+/*Familiares (Sus Hijos y decendencia)*/
+ul li {color: blue;}
+
+/*Hermano (Solo Hijos Directos)*/
+li>strong{color: brown;}

@@ -1,0 +1,14 @@
+h1{color: aqua;}
+/*Seleccionando etiquetas enteras*/
+
+li{color: aqua;}
+/*Seleccionando todos los elementos de la lista*/
+
+span{color:aqua}
+/*Seleccionando elementos encerrados en (span)*/
+
+.Missing{color:aqua}
+/*Seleccionando elementos pertenecientes a esta clase (se pone .NombredeClase )*/
+
+#Diabetes{ color:aqua}
+/*Seleccionando los elementos con el ID seleccionado se pone # delant*/

@@ -1,0 +1,26 @@
+body{
+    margin: 0; padding: 0;
+    font-family:"Nougrant";
+    background-color:rgb(62, 22, 49) ;}
+
+h1{
+    margin: 5vh 30vw;
+    font-size: 200px;
+    text-align: center;
+    background-color: rgb(152, 55, 216);
+    border-radius: 50px;}
+
+.span{
+    text-decoration: underline;}
+
+.box1{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    width: 100vw; height: 10%;}
+
+img{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    width: 5%; height: 5%;
+    background-position: cover;
+}

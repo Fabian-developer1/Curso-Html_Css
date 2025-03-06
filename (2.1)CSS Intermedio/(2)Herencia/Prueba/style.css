@@ -1,0 +1,10 @@
+body {
+    color: blueviolet;}
+
+h1{
+    color:red;}
+
+
+/*Heredara el valor de la propiedad de body que es su padre*/
+p{
+    color: inherit;}

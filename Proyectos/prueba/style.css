@@ -1,0 +1,9 @@
+div{
+    background-color: rgb(43, 177, 192);
+
+    height:50vh;
+    width: 50vw;
+    margin-left: 25vw; margin-right: 25vw;
+    margin-top: 25vh; margin-bottom: 25vh;
+    box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+/*En medidas porcentuales la medida representa el porciento de la caja que lo representa*/
+/*Exepto con el tamaño de la fuente que representara el tamaño de la caja que lo contenga que representara el tamaño de la fuente de la caja que la contiene si esta declarada sino ira subiendo*/
+
+/*(em) representa el tamaño de la fuente en pixeles de la caja que la contiene sino esta declarado ira subiendo y en caso que llegue a la raiz su valor predeterminado es 16px*/
+/*(rem) representa el tamaño de la fuente de la raiz (HTML{})*/
+
+/*vh y vw se usa para representar porcientos de la ventana actual*/

@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    font-size: 40px;
+}
+details{
+    margin: 10vh 25vw;
+    background-color: beige;}
+
+details[open]{
+    font-weight: bold;}
+
+li{
+    font-weight: 100;
+    text-decoration:none;}

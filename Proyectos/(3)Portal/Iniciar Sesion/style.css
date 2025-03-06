@@ -1,0 +1,28 @@
+body{
+    background-image: url(../../../Imagenes/Captura\ de\ pantalla\ \(99\).png);
+    background-repeat: no-repeat; 
+    background-size: 100%;}
+
+form{
+        margin: auto;}
+
+input{
+    margin-top: 5px;}
+
+.form{
+    width: 30vw; height: 38vh;
+    margin: auto; margin-top: 40vh;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: rgba(165, 149, 103, 0.715) ;
+    border-radius: 10px; }
+
+input{
+    width: 80%;
+    margin: 0;padding: 0;
+    padding: 8px 0px ;
+    border-radius: 10px;
+    color: rgb(67, 255, 255);}
+
+label{font-size: 40px;}
+    

@@ -1,0 +1,21 @@
+h1{
+    color: blue; }
+
+    /*Seleccionando etiquetas enteras*/
+
+li{color:rgb(143, 194, 13);}
+
+    /*Seleccionando todos los elementos de la lista*/
+
+span{color:red}
+
+    /*Seleccionando elementos encerrados en (span)*/
+
+.Missing{color:pink}
+
+    /*Seleccionando elementos pertenecientes a esta clase (se pone .NombredeClase )*/
+
+#Diabetes{ color:blueviolet}
+
+    /*Seleccionando los elementos con el ID seleccionado se pone # delant*/
+  

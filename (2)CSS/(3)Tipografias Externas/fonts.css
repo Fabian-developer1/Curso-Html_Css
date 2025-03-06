@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "tipografia" ; /*-Nombre que queramos entre comillas dobles*/
+
+    
+    src: url(../../Fonts/) format(truetype); /*Ruta de la tipografia
+
+    -se debe poner luego format es una buena practica
+    ttf= truetype  
+    */
+
+    /* Se pueden establecer varias tipografias distintas con el mismo nombre asociadas a una cualidad wheight*/
+}
+
+
+@font-face {
+    font-family: Ejemplo;
+    font-weight: 200;
+    src: url(../../Fonts/Tipografia regular) format(truetype);
+}
+
+@font-face {
+    font-family: Ejemplo;
+    font-weight: 500;
+    src: url(../../Fonts/Tipografia medio) format(truetype);
+}
+
+@font-face {
+    font-family: Ejemplo;
+    font-weight: 800;
+    src: url(../../Fonts/Tipografia negrita) format(truetype);
+}

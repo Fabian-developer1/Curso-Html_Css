@@ -1,0 +1,42 @@
+
+/*Pseudo-Clases*/
+
+h1:hover{color: aqua; }          /*Se aplica cuando el mouse esta por encima */
+h1:active{color: aqua;}          /*Se aplica mientras se da Click al elemento*/
+
+li:first-child{font-size: 16px;}   /*Se aplica la propiedad al (primer) elemento (li)*/
+li:last-child{font-size: 16px; }   /*Se aplica la propiedad al (ultimo) elemento (li)*/
+
+li:nth-child(n){font-size:16px }
+/*Se aplica la propiedad al elemento (n) */
+/*Si se pone 2n o otro numero modificara uno de cada el numero que usemos*/
+/*Contara como elementos en la cuenta no solo a los de su tipo ej(si es un span esta entre 2 li este sera el elemento 2 pero no lo modificara)*/
+
+li:nth-of-type(n){font-size:16px }
+/*Aqui solo contara en la cuenta total los elementos de su mismo tipo*/
+
+li:not(.clase){font-size: 16px;}
+/*Selecionara todos los elementos de esa etiqueta exepto los de la clase entre parentesis*/
+
+div:empty{background-color: blue;}
+/*Solo se modificara si elelemento esta vacio*/
+
+:root {color: aliceblue;}
+/*Elemento raiz*/
+
+input[type="checkbox"] :checked{color: aliceblue;}
+/*Solo se modificara si esta checkeado*/
+
+input :invalid{color: aliceblue;}
+/*Solo se apliacara cuando no se cumpla con el formato del input*/
+
+input :valid{color: aliceblue;}
+/*Solo se apliacara cuando se cumpla con el formato del input*/
+
+a :link   {color: aliceblue;} /*Links sin visitar*/
+a :visited{color: aliceblue;} /*Links Visitados */
+
+
+/*Has*/
+ul:has(+div){color: aliceblue;}
+/*Funciona contrario a ul + div en vez de modificar el div aquie modifica el ul pero solo si a ese ul le sigue un div*/

@@ -1,0 +1,17 @@
+background-image: url("") /*Se usa dos comillas dobles para representar enlaces de donde se encuentra la imagen online*/
+background-size:contain /*el contenedor se ajusta para que la imagen entre al menos una vez*/
+background-size:cover /*hace que la imagen entre adaptando la resolucion*/
+
+background-position: (center,right,left,top,bottom) /*centra la imagen*/
+/*tambien se puede usar 2 valores el primer valor modifica el eje de las x y el segundo de las y*/
+
+background-repeat /*Normalmente se usa el no repeat pero tambien se puede usar repeat-x o repeat-y*/
+
+background-atachment:fixed/*Hace que la imagen se mantenga mientras se hace scroll*/
+
+/*Parametro abrevivado*/
+
+background:1(URL) 2(POSITION) / 3(SIZE) 4(REPEAT) 5(ATACHMENT ) 6(COLOR)
+background :url(../../Imagenes/Brawl_Stars/8bit_hc_pin.png) center/cover no-repeat;
+
+/*Sin parentesis*/

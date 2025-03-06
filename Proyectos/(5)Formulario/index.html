@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form class="formulario">
+        <h1>Formulario para Contactar</h1>
+            <fieldset>
+                <legend>Informacion Basica</legend>
+                    <div class="divisora">
+                        <label for="user">Usuario</label> <div></div>
+                            <input type="text" id="user" placeholder="Joseph Joestar">
+                    </div>
+                    <div class="divisora">
+                        <label for="mail">Email</label>   <div></div>
+                            <input type="email" id="mail" placeholder="ejemplo@gmail.com">
+                    </div>
+            </fieldset>
+
+            <!--TextArea-->
+            <div class="divisora">
+                <label for="msj"> Mensaje
+                    <textarea  id="msj" placeholder="Escriba su Mensaje"></textarea>
+                </label>
+            </div>
+
+            <!--Select-->
+            <div class="divisora">
+                <label for="at"> Eliga su personaje
+                    <select name="Personaje" id="at">
+                        <option value="1"> Finn </option>
+                        <option value="2"> Jake </option>
+                    </select>
+                </label>
+            </div>
+
+            <!--Datalist-->
+            <div class="divisora">
+                <label for="fem"> Eliga su personaje femenino
+                    <input list="fem">
+                        <datalist id="fem" >
+                            <option value="Marcelin"> Es Pelinegra    </option>
+                            <option value="Chicle">   Es Pelirrosada  </option>
+                        </datalist>
+                </label>
+            </div>
+    </form>
+    
+</body>
+</html>

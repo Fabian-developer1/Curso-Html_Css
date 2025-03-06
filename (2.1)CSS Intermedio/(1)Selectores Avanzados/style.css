@@ -1,0 +1,33 @@
+/*Seleccionar de (Atributos)*/
+
+img[src="arroz.png"]{color:red}
+    /*Esto solo seleccionara a las etiquetas que tengan exactamente ese valor de atributo*/
+
+img[src$="png"]{color:red}
+    /*Esto solo seleccionara a las etiquetas que terminen exactamente con ese valor de atributo*/
+
+img[src^="png"]{color:red}
+    /*Esto solo seleccionara a las etiquetas que empiecen exactamente con ese valor de atributo*/
+
+
+/*Selectores de (Familiares)*/
+
+ul strong{color:red}
+    /*Solo se modificaran los elementos (strong) que sean contenidos en un (ul) aunque no sean hijos directos*/
+
+ul > strong{color:red}
+    /*Solo se modificaran los (strong) que sean hijos directos de (ul)*/
+    /*Se puede usar tambien(ul > li > strong)*/
+
+
+/*Selector de (Hermano Adyacente) [Hijos y Decendencia]*/
+
+ul + strong{color:red}
+    /*Solo se modificaran un unico elemento (strong) siguiente que vaya despues de un (ul) */
+    /*Se puede usar tambien(ul + li + strong) y se modificara el strong*/
+
+
+/*Selector de (Hermanos Generales)  [Solo Hijos Unicos]*/
+
+ul ~ strong{color:red}
+    /*Se modificaran todos los elementos (strong) siguientes que vaya despues de un (ul) */

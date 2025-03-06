@@ -1,0 +1,37 @@
+
+body{padding:0px;
+     margin:0px;}
+
+     /*RGB Y RGBA*/
+.Box1{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+
+    background-color:rgb(0, 0, 255) }
+
+    /*El 4to valor es la opcidad y va de 0 a 1 donde 1 es el maximo y tambien se puede dar en porcentajes*/
+
+
+    /*Hexadecimal (#)*/
+.Box2{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+
+    background-color:#aa77ff;}
+
+    /*En Hexadecimal los colores se dan usando 3 o 6 valores del 0 al F en el mismo orden que en RGB y el 4 tambien tiene 16 valores y  indica la opacidad*/
+
+
+    /*HSL*/
+.Box3{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+
+    background-color:hsl(90, 80%, 70%);}
+
+    /*Primero el valor del color que se encuentra entre 0 y 360 grados
+        grados, saturation, lightness*/
+

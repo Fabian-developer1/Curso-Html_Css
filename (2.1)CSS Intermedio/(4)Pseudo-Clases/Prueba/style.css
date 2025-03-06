@@ -1,0 +1,29 @@
+body{
+    color: blue;}
+
+    /*Cambiando de Propiedad cuando el Cursor esta por encima*/
+h1:hover{
+    color: red;}
+
+    /*Cambiando la Propiedad cuando se da Click*/
+h1:active{
+    color: rgb(25, 206, 22);}
+
+    /*Cambiando la Propiedad para el Primer li*/
+li:first-child{
+    color: bisque;}
+
+    /*Cambiando la Propiedad para el Ultimo li*/
+li:last-child{
+    color: yellow;}
+
+    /*Cambiando la propiedad cada 2 li*/
+li:nth-child(2n){color: rgb(232, 0, 46);}
+
+
+        /*Modificando el Label cuando el input es valido*/
+label:has(input:valid){color: rgb(48, 199, 11);}
+
+
+        /*Modificando el Label cuando el input es valido*/
+label:has(input:invalid){color: rgb(199, 11, 11);}

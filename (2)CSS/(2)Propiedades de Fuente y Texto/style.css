@@ -1,0 +1,40 @@
+p{
+    /*1RA*/     color:red;
+
+    /*2DA*/     font-family:'Times New Roman';
+    /*Al eleir la fuente se escribe a no ser que sea 2 palabras separadas por espacio 
+    en ese caso se encierran en comillas simples 'Times New Roman' */
+
+    /*Se pueden poner varias fuentes separadas por comas por si la primera no carga
+    por distintas razones*/
+
+    /*3RA*/     font-size: 16px;
+
+    /*4TA*/     font-weight: bold;
+    /*(bold) = negrita o 700 bolder=va un paso mas alla de Bold*/
+
+    /*5TA*/     font-style:italic;/* 
+    (oblique) = Menos cursiva (Se puede especificar los grados oblique 40deg) 
+    (italic)  = Cursiva
+    (normal)  */
+
+    /*6TA*/     text-align: center;/*
+    (justify) = (intenta que todo termine y empieze parejo)*/
+
+    /*7MA*/     text-decoration: underline;/* 
+        (underline)   = Raya debajo
+        (overline)    = Raya encima
+        (line-through)= Tashar
+        (none)        = Nada
+     Se pueden usar varias propiedades juntas   */
+
+        /*8VA*/ line-height: 1;
+    /*Establece el espacio entre las letras de encima y debajo 1 es predeterminado*/
+
+    /*9NA*/     letter-spacing: 1px;
+
+    /*10MA*/    text-transform: capitalize; /* 
+    (uppercase)  = Todo mayusculas
+    (lowercase)  = Todo minusculas
+    (capitalize) = Primera Letra De Cada Palabra Mayuscula */
+}
