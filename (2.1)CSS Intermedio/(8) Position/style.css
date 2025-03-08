@@ -12,8 +12,20 @@ div{position: absolute;}
 -Es muy bueno hacer a la caja que la contiene sea (relativa) para poder moverla en esa caja ya que la empezara a tomar como punto relativo
 -Si su padre tiene poscion:relativa se ponen todos los valores (top,bottom,right,left) con valor 0 y el margin:auto y la caja quedara centrada  */
 
+/*---Fixed---*/
+div{position: fixed;}
+/*
+-La caja siempre se ubicara con respecto a la panatalla entera y cuando scrolleemos se quedara fija en esa posicion */
+
+/*---Sticky---*/
+div{position: sticky;}
+/*
+-Se comportara como un relative si no tiene posicion y cuando le damos un valor al llegar a ese valor se comportara como un fixed y se quedara fija  */
+
+
 /*Formas de Mover*/
 /*Al mover con (position:relative) se mueve a partir de su posicion inicial*/
+
 
 div{
     position: relative;

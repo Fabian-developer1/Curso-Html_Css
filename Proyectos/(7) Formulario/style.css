@@ -3,7 +3,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(46, 106, 180);}
 
-    /*NavBar*/
+    /*--NavBar--*/
 ul{
     margin: 0;}
 
@@ -17,40 +17,57 @@ a{
     background-color: aliceblue;
     position: relative;
     border-radius: 0 0 20px 20px;
-    background-color: #48e}
+    background-color: #48e;
+    box-sizing: border-box;}
 
 .navbar__lista{
-    display: inline-block;
+    display:inline-block;
     position: absolute;
     background-color: rgb(183, 209, 249);
     border-radius: 10px;
-    margin-top: 2vh;
-    padding-top: 1vh;
-    width: 11vw; height: 10vh;
-    font-size: 30px;
-    text-align: center}
+    margin-top: 2vh; padding-top: 1vh; margin-left:2vw ;
+    width: 11vw; height: 10vh;  
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    transition-property: background-color,font-size,font-weight,left;
+    transition-duration: 1.5s;
+    transition-delay: 0.5s;
+    left: 0;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);}
 
+    /*Transiciones de Mov*/
+body:hover .navbar--h{
+    left:7vw; ;}
+
+body:hover .navbar--a{
+    left:25vw; ;}
+
+body:hover .navbar--c{
+    left:42vw; ;}
+
+body:hover .navbar--l{
+    left:73vw; ;}
+
+    /*Transiscion Iconos*/
 .navbar__lista:hover{
-    opacity: 0.8;}
+    transition-duration: 0.8s;
+    transition-delay: 0s;
+    background-color: #7caaef;
+    font-size: 28px;
+    font-weight: bold;}
 
-.navbar--h{
-    right:85vw;  }
-
-.navbar--a{
-    right:70vw;  }
-
-.navbar--c{
-    right:55vw;  }
+.navbar--l:hover{
+    font-size: 45px;}
 
 .navbar--l{
     background-color: #e0f1ff;
     color: #48e;
-    right:8vw;  
-    font-size: 40px;
-    width: 20vw; height: 10vh; }
+    font-size: 30px;
+    font-weight: bold;
+    width: 20vw; height: 10vh;; }
 
-    /*Formulario*/
-
+    /*--Formulario--*/
 h1{ 
     margin-left: 21%;
     padding-top: 3%;
@@ -59,7 +76,8 @@ h1{
 label{
     text-decoration: none;}
 
-label:hover{text-decoration: underline;}
+label:hover{
+    text-decoration: underline;}
 
 fieldset{
     border-radius: 10px;
@@ -67,22 +85,26 @@ fieldset{
     border: 1px solid rgba(255, 255, 255, 0.45);}
 
 legend{
-    font-size: 30px;}
+    font-size: 30px;
+    transition-property: color;}
 
-legend:hover{opacity: 0.5;}
+legend:hover{
+    transition-duration: 0.3s;
+    color:#c2d5f3;}
 
 select{
     background-color: rgb(142, 182, 243);
     margin-left: 2%;}
 
 .formulario{
-    height: 70vh; width: 40vw;
+    height: 72vh; width: 40vw;
     background-color: #48e;
     color: #e0f1ff;
     position:relative;
     left: 27vw; top:2vh;
     border-radius: 10px;
-    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.1);}
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;}
 
 .formulario__input{
     display: block;
@@ -91,20 +113,23 @@ select{
     border-radius: 3px;
     border: 0px solid transparent ;}
 
-/*Footer*/
+    /*--Footer--*/
 .footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color:#48e;
     opacity: 0.5;
-    border-radius: 10px 10px 0 0 ;}
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;}
 
 h2{
+    font-size: 15px;
+    font-weight: bold;
     display: inline-block;
     margin: 0  5%;
-    padding-top: 1%;}
+    padding-top: 10px;}
 
 
 

@@ -1,0 +1,21 @@
+/*Se le tiene que dar la propiedad en la caja base*/
+/*Se le da la duraciond e la transicion */
+h1{
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;}
+
+/*Luego el cambio en la caja a la que transciona*/
+h1{
+    transition-duration: 1s;
+    color: black;}
+
+/*Propiedades*/
+
+h1{transition-delay: 3s;}/*El Tiempo que tiene que pasar par qeu empiece a transicionar*/
+h1{transition-timing-function: ease;} /*Es para controlar el tiempo con el que una caja cambia su posicion*/
+/*Se pueden usar las curvas de beizer para configurar el tiempo que tomara al incio y al final*/
+/*cubic-bezier.com*/
+
+/*Shorthand*/
+h1{transition: (propiedad) (duration) (estilo de animacion) (delay);}
