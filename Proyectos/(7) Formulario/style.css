@@ -1,0 +1,111 @@
+body{  
+    margin: 0; padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(46, 106, 180);}
+
+    /*NavBar*/
+ul{
+    margin: 0;}
+
+a{
+    padding: 2vh 1vw;
+    display: block;
+    text-decoration: none;}
+
+.navbar{
+    width: 100vw; height: 15vh;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    background-color: #48e}
+
+.navbar__lista{
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(183, 209, 249);
+    border-radius: 10px;
+    margin-top: 2vh;
+    padding-top: 1vh;
+    width: 11vw; height: 10vh;
+    font-size: 30px;
+    text-align: center}
+
+.navbar__lista:hover{
+    opacity: 0.8;}
+
+.navbar--h{
+    right:85vw;  }
+
+.navbar--a{
+    right:70vw;  }
+
+.navbar--c{
+    right:55vw;  }
+
+.navbar--l{
+    background-color: #e0f1ff;
+    color: #48e;
+    right:8vw;  
+    font-size: 40px;
+    width: 20vw; height: 10vh; }
+
+    /*Formulario*/
+
+h1{ 
+    margin-left: 21%;
+    padding-top: 3%;
+    font-size: 50px;}
+
+label{
+    text-decoration: none;}
+
+label:hover{text-decoration: underline;}
+
+fieldset{
+    border-radius: 10px;
+    margin: 2% 2%;
+    border: 1px solid rgba(255, 255, 255, 0.45);}
+
+legend{
+    font-size: 30px;}
+
+legend:hover{opacity: 0.5;}
+
+select{
+    background-color: rgb(142, 182, 243);
+    margin-left: 2%;}
+
+.formulario{
+    height: 70vh; width: 40vw;
+    background-color: #48e;
+    color: #e0f1ff;
+    position:relative;
+    left: 27vw; top:2vh;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.1);}
+
+.formulario__input{
+    display: block;
+    margin: 5px 0px; margin-left: 1vw;
+    width: 30%;
+    border-radius: 3px;
+    border: 0px solid transparent ;}
+
+/*Footer*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:#48e;
+    opacity: 0.5;
+    border-radius: 10px 10px 0 0 ;}
+
+h2{
+    display: inline-block;
+    margin: 0  5%;
+    padding-top: 1%;}
+
+
+
+

@@ -8,7 +8,49 @@
     <link rel="icon" href="" type="image/png">
 </head>
 <body>
-    arroz prueba
-    
+    <nav>
+        <div class="navbar">
+            <ul ">
+                <li class="navbar__lista , navbar--h"><a href="" >Home</a></li>
+                <li class="navbar__lista , navbar--a"><a href="" >About Us</a></li>
+                <li class="navbar__lista , navbar--c"><a href="" >Contact</a></li>
+                <li class="navbar__lista , navbar--l"><a href="" >Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <form class="formulario">
+            <h1>Crear Cuenta</h1>
+                <fieldset>
+                    <legend>Informacion Basica</legend>
+                    <label for="usern"> Nombre
+                        <input type="text" id="usern" class="formulario__input"> </label>
+                    <label for="userln"> Apellidos
+                        <input type="text" id="userln" class="formulario__input"> </label>
+                    <label for="usera"> Edad
+                        <input type="number" id="usera" class="formulario__input"> </label>
+                    <label for="users"> Sexo
+                        <select>
+                            <option value="Femenino">Masculino</option>
+                            <option value="Masculino">Femenino</option>
+                        </select> </label>
+                </fieldset>
+                <fieldset class="formulario__fieldset">
+                    <legend class="formulario__legend">Credenciales </legend>
+                        <label for="email" class="formulario__label"> Email
+                            <input type="email" id="email" class="formulario__input"></label>
+                        <label for="passw" class="formulario__label"> Contraseña
+                            <input type="passw" class="formulario__input" id="passw" >
+                        <label for="passwc" class="formulario__label"> Confirmar Contraseña
+                            <input type="passw" class="formulario__input" id="passwc" >
+                </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>Autor:Fabian Marcos Bello Ojea</h2>
+            <h2>All Rights Reserved @</h2>
+        </div>
+    </footer>
 </body>
 </html>
