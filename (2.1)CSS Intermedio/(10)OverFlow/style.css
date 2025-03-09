@@ -1,0 +1,25 @@
+
+/*---Visible---*/
+div{overflow: visible;}/*Pordefecto Si se sale del contenedor se vera*/
+
+/*---Hidden---*/
+div{overflow: hidden;}/*Se ocultara lo que se salga de la caja*/
+div{overflow: clip;} /*Le Saca el espacio de la barrita*/
+
+/*---Scroll---*/
+div{overflow: scroll;}/*Dara una barrita para conrolar*/
+div{overflow-y: scroll;}/*Solo saldra una barrita para el eje Y*/
+
+/*---Auto---*/
+div{overflow: auto;}/*Saca la barrita cuando se desborde*/
+
+
+/*---------*/
+
+/*---White-Space---*/
+p{white-space: pre-wrap;}/*Usa los saltos de linea que establezacamos en el codigo pero si detecta que se va a desbordar lo hace automat*/
+
+
+/*---Text-Wrap--*/
+p{text-wrap: balance;} /*Hace que el parrafo en si tenga mas menos los mismos margenes*/
+p{text-wrap: pretty;}  /*Se usa como el balanced pero para parrafos*/
