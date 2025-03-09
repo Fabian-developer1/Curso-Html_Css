@@ -1,0 +1,11 @@
+    /*Flex-Wrap*/
+div{flex-wrap:nowrap;} 
+/*Default*/
+
+div{flex-wrap: wrap;} 
+/*No modifica las dimensiones de los elementos para que quepan en la linea y si no caben los pasa debajo*/
+div{flex-wrap: wrap-reverse;} /*Lo mismo pero en direccion opuesta*/
+
+/*ShorHand*/
+
+div{flex-flow: row wrap ;}/*Direction y wrap*/

@@ -1,0 +1,30 @@
+        
+/*---Flexbox---*/
+div{display: flex;}
+
+/*---Flex Direction---*/
+
+    /*Eje X*/
+div{flex-direction: row;}
+/* Va a favor de la direccion del texto {Default De (Izquierda) a (Derecha)}*/
+
+div{flex-direction: row;}
+/* Va en Contra de la direccion del texto De (Derecha) a (Izquierda)*/
+
+    /*Eje Y*/
+div{flex-direction: column;}
+/*De (Arriba) hacia (Abajo)*/
+
+div{flex-direction: column-reverse;}
+/*De (Abajo) hacia (Arriba) */
+
+/*Direction*/
+div{direction: ltr;}/*Default en casi todos los idiomas*/
+/*El valor que se configure aqui sera el que sigan los flex_items si se configura ROW*/
+
+
+/*
+-Si se le da Padding a los Flex Items ya los elementos no son flexibles
+-Si no se le da un valor a la propiedad whidht su valor sera el tamaño del cross axis
+-Investigar la direction: ltr y rtl para hacer paginas para personas arabes
+-*/

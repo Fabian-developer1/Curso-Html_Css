@@ -1,0 +1,16 @@
+
+/*Row*/
+.flexbox__row{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;}
+
+.flexbox__item{
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(76, 202, 202);
+    text-align: center;
+    font-size: 40px;
+    color: white;}

@@ -23,37 +23,40 @@ a{
 .navbar__lista{
     display:inline-block;
     position: absolute;
-    background-color: rgb(183, 209, 249);
+    background-color: rgb(183, 212, 255);
     border-radius: 10px;
     margin-top: 2vh; padding-top: 1vh; margin-left:2vw ;
     width: 11vw; height: 10vh;  
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-    transition-property: background-color,font-size,font-weight,left;
+    font-size: 23px; font-style: italic; text-align: center;
+    transition-property: background-color,font-size,font-weight,left,opacity;
     transition-duration: 1.5s;
     transition-delay: 0.5s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
     left: 0;
-    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);}
+    opacity: 0;}
 
     /*Transiciones de Mov*/
 body:hover .navbar--h{
+    opacity: 1;
     left:7vw; ;}
 
 body:hover .navbar--a{
+    opacity: 1;
     left:25vw; ;}
 
 body:hover .navbar--c{
+    opacity: 1;
     left:42vw; ;}
 
 body:hover .navbar--l{
+    opacity: 1;
     left:73vw; ;}
 
     /*Transiscion Iconos*/
 .navbar__lista:hover{
     transition-duration: 0.8s;
     transition-delay: 0s;
-    background-color: #7caaef;
+    background-color: #ebf3ff;
     font-size: 28px;
     font-weight: bold;}
 
@@ -65,7 +68,8 @@ body:hover .navbar--l{
     color: #48e;
     font-size: 30px;
     font-weight: bold;
-    width: 20vw; height: 10vh;; }
+    width: 20vw; height: 10vh;
+    opacity: 1;}
 
     /*--Formulario--*/
 h1{ 
