@@ -1,0 +1,14 @@
+div{outline-width: 100px;}
+div{outline-color: blue;}
+div{outline-style:solid ;}
+div{outline-offset: 10px;}/*Separacion del borde*/
+
+
+div:hover{
+    outline: 10px solid black;} /*Sirve para hacer efectos porque solo ocupa espacio visual*/
+
+
+input:focus-visible{
+    outline: none;}
+/*Para desaparcer el outline de cajas accesibles se recomienda quitarlo con la pseudo clase*/
+/*Asi le podremos dar el estilo que querramos al input y sera accesible*/

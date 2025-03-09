@@ -1,0 +1,11 @@
+/*---Object Fit---*/
+
+img{object-fit: fill;}  /*Por defecto*/
+img{object-fit:contain;}/*Hace que la imagen entre al menos una vez*/
+img{object-fit: cover;} /*Se adapta*/
+img{object-fit: none;}  /*La imagen siempre va a tener el tamaño de su resolucion*/
+img{object-fit: scale-down;}/*Toma la propiedad que haga la imagen mas pequeña depende del tamaño de la caja 😊*/
+
+/*---Object Position---*/
+
+img{object-position: center;} /*Lo mismo que background position*/

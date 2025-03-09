@@ -33,6 +33,13 @@ input :invalid{color: aliceblue;}
 input :valid{color: aliceblue;}
 /*Solo se apliacara cuando se cumpla con el formato del input*/
 
+input:focus{color: red;}
+/*Solo se modificara si esta enfocado */
+
+input:focus-visible{color: red;}
+/*Solo se modificara si esta enfocado visualmente y no perdera su accesibilidad*/
+
+
 a :link   {color: aliceblue;} /*Links sin visitar*/
 a :visited{color: aliceblue;} /*Links Visitados */
 
