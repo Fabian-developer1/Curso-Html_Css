@@ -1,0 +1,4 @@
+/*---Align Self---*/
+
+.flexitem{align-self: center;}
+/*Solo funciona cuando esta la propiedad (AlignItems) en la caja flexible*/

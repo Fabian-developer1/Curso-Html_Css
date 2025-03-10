@@ -1,0 +1,21 @@
+/*---Flex GROW---*/
+
+.flexitem{flex-grow: 1;}
+/*-Divide el espacio disponible entre los flexitems depende de los valores que otorguemos */
+/*0(Es el valor predeterminado)*/
+
+
+/*---Flex Shrink---*/
+
+.flexitem{flex-shrink: 1;}
+/*Determina cuanto se debe encoger un elemento*/
+/*1(Es el valor Predeterminado)*/
+
+/*---Flex Basis---*/
+
+.flexitem{flex-basis: 150px;}
+/*Determina el tamaño que tendra el elemento antes de encojerse (EN SU EJE PRINCIPAL)*/
+/*AUTO (Es el valor predeterminado )*/
+
+/*Shorthand*/
+.flexitem{flex: 0 1 auto;} /*(grow,shrink,basis)*/

@@ -1,0 +1,7 @@
+/*
+-Es una propiedad que se le da a las cajas flexibles para modificar el orden en que se ven
+-Los menores valores se mostraran primero
+-No se modifican el DOM
+-Se pueden poner valores negativos*/
+
+.flexitem{order: 1;}
