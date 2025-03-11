@@ -27,11 +27,11 @@ div:empty{background-color: blue;}
 input[type="checkbox"] :checked{color: aliceblue;}
 /*Solo se modificara si esta checkeado*/
 
-input :invalid{color: aliceblue;}
-/*Solo se apliacara cuando no se cumpla con el formato del input*/
-
 input :valid{color: aliceblue;}
 /*Solo se apliacara cuando se cumpla con el formato del input*/
+
+input :invalid{color: aliceblue;}
+/*Solo se apliacara cuando no se cumpla con el formato del input*/
 
 input:focus{color: red;}
 /*Solo se modificara si esta enfocado */

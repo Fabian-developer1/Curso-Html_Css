@@ -1,33 +1,29 @@
 
-    /*Justify-Content*/
-
-div{justify-content: start;}
+        /*---(Justify-Content)---*/
 /*Alinea los items en el (eje principal)*/
 
-/*Valores*/
+    /*[Valores]*/
 div{justify-content: start;}         /*Pordefecto (En direccion del texto)*/
 div{justify-content: end;}           /*Al final del eje (En direccion contraria) */
 div{justify-content: center;}        /*Alinea al medio*/
+
 div{justify-content: space-between;} /*Un elemento al inicio,Un elemento al final y modifica los del medio*/
 div{justify-content: space-around;}  /*Hace que todos los elementos tengan el mismo margen sin colpaso*/
 div{justify-content: space-evenly;}  /*Hace que todos los elementos tengan el mismo margen con colpaso lo que hace que todos tengan la misma distancia de las cajas y de los bordes*/
 
 
-    /*Align-Content*/
+    /*---(Align-Content)---*/
 /*Alinea los  items en el (eje cruzado)*/
 
-
-
-    /*Align-items*/
-/*Se recomienda para una sola linea o columnas de elementos*/
-
-
-/*Valores*/
-div{align-items: stretch;} /*(pordefecto)*//*Los items se estiran para llenar el contenedor si no tienen un tamaño definido para ese eje height (Y) whidth (x)*/
+/*[Valores]*/
+div{align-items: stretch;} /*(PorDefecto) Los items se estiran para llenar el contenedor si no tienen un tamaño definido para ese eje Height (Y) Whidth (X)*/
 div{align-items: start;}            /*Lo posiciona al (Comienzo)*/           
 div{align-items: end;}              /*Lo posiciona al (Final)*/
 div{align-items: center;}           /*Lo (Centra)*/
 div{align-items: baseline;}         /*Se intenta alinear las lineas de texto que estan dentro de los items*/
 
+
+    /*---(Align-items)---*/
+/*Se recomienda para una sola linea o columnas de elementos*/
 
 /*Se puede usar flexbox para centrar items haciendo que los dos ejes esten centrados o dandole margin:auto */

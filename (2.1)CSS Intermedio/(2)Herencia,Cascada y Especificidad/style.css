@@ -1,0 +1,25 @@
+h1{color:inherit}
+/*Hereda la Propiedad que tiene su Padre si el padre no tiene valor para esta propiedad subira buscando el que la tenga*/
+
+h1{color:initial}
+/*No hereda el valor de su padre usara el por defecto*/
+
+h1{color:unset}
+/*Si el valor por defecto era inherit lo vuelve a inherit pero si pordefecto era otro lo vuelve initial*/
+
+h1{color: revert;}
+/*No se usa mucho*/
+
+/*(ESPECIFICIDAD)*/
+
+/*La especificidad (Selector Specifity) es lo que dicta la prioridad de modificar un elemento*/
+/*Los valores mas importantes son los mas a la derecha*/ 
+
+/*---En orden de prioridad iria: 
+
+-Valores del navegador
+-Valores dados por el usuario(extensiones)
+-Valores definidos en CSS(1st-Atributos 2-Clases 3-Etiquetas)
+-Atributo Style="" (En HTML)
+-!important (En CSS)
+*/
