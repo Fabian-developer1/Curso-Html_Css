@@ -1,0 +1,4 @@
+/*La forma correcta de trbajar con imagenes es darle en caso de que queremos que ocupe el 100% de ancho darselo en max-width y dejarle el width por defecto que es auto para que en dispositivos muy grandes no se agrande demasiado y conserve su resolucion maxima*/
+/*El height se deberia establecer en auto*/
+
+/*Para hacer un video responsive se encierra en un contenedor se le da un width del 100% o max-width (escogeriamos el contraio al modificar el video) y en el contenedor usariamos la propiedad aspect-ratio 16/9 */

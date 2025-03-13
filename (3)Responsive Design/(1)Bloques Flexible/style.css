@@ -1,0 +1,8 @@
+/*
+-Se recomienda trabajar con (min-Whidht) y (max-Whidth)
+-No se recomienda trabajrar con un valor de (height) definido y si se trabaja que sea (min-height)
+*/
+
+/*
+-Al trabajar con FlexBox se recomienda usar un flexGrow=1 y un flexBasis=0
+*/

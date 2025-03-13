@@ -1,0 +1,21 @@
+
+
+@media not screen and (width:500px){
+    body{
+        background-color:black; }}
+/*Excluye a los dispositivos que cumplen con la consulta*/
+
+@media only screen and (width:500px){
+    body{
+        background-color:black; } }
+/*Fuerza a los navegadores antiguos a usar las prpiedades*/ 
+
+@media screen and (width:400px) and (width:500px){
+    body{
+        background-color:black; } }
+/*Varias expresiones(condiciones)*/
+
+/*Mediatype
+
+-print
+-scren*/
