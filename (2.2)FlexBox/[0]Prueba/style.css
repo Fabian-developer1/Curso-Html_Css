@@ -1,5 +1,29 @@
 .flexbox{
-    background-color:chocolate;
-    height: 500px;
-    width:  500px;
+    background-color:rgb(176, 221, 61);
+    height: 1500px;
+    width:  100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox__item:first-child{
+    height: 200px;
+    width: 500px;
+    background-color: aqua;}
+
+.flexbox__item{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(141, 69, 130);}
+
+.flexbox__item:nth-child(2n){
+    height: 200px;
+    width: 500px;
+    background-color:tomato;}
+
+.flexbox__item:last-child{
+    height: 200px;
+    width: 500px;
+    background-color: blueviolet;
 }
